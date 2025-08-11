@@ -1,5 +1,6 @@
-package com.abhijeet.offsideAi.domain;
+package com.abhijeet.offsideAi.domain.entities;
 
+import com.abhijeet.offsideAi.domain.enums.Role;
 import jakarta.persistence.*;
 import lombok.*;
 import org.springframework.data.annotation.CreatedDate;

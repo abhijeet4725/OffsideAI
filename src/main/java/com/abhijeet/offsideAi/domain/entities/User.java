@@ -1,5 +1,6 @@
-package com.abhijeet.offsideAi.domain;
+package com.abhijeet.offsideAi.domain.entities;
 
+import com.abhijeet.offsideAi.domain.enums.AuthProvider;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Email;
