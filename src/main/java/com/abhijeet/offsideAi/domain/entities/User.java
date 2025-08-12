@@ -47,6 +47,9 @@ public class User {
     @Column(nullable = false)
     private AuthProvider authProvider;
 
+    @OneToOne(mappedBy = "user",cascade = CascadeType.ALL)
+    private RefreshToken refreshToken;
+
     @Column(name = "created_at", nullable = false)
     @CreatedDate
     private LocalDateTime createdAt;
